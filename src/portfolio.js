@@ -113,6 +113,19 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Android App Developer-Intern",
+      company: "WebShark Web Services",
+      companylogo: require("./assets/images/bare.svg"),
+      date: "July 2020 – Present",
+
+      descBullets: [
+        "Developing a Social Media App in JAVA language",
+        "Handling data in SQL relational databases.",
+        "Developing API in node.js for communication between Application and Database"
+
+      ]
+    },
+    {
       role: "Junior App Developer-Intern",
       company: "BareClearAct",
       companylogo: require("./assets/images/bare.svg"),
@@ -123,6 +136,7 @@ const workExperiences = {
 
       ]
     }
+
   ]
 };
 
