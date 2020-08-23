@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "CI=false npm run build",
-    "start": "react-scripts build",
+    "start": "CI=false react-scripts build",
     "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
