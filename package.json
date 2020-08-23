@@ -18,7 +18,7 @@
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
-    "predeploy": "CI=false npm run build",
+    "predeploy": "npm run build",
     "start": "CI=false react-scripts build",
     "build": "CI=false react-scripts build",
     "deploy": "gh-pages -b master -d build",
